@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/3cae25624a.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body  data-spy="scroll" data-target=".navbar-nav" data-offset="50">
+    <div style="position: fixed; z-index: 100;" class="container-fluid px-0 text-center">
+        <nav class="navbar navbar-expand-lg justify-content-between align-items-center py-4" id="mainNav" style="background-color: #2c3e50">
+            <a class="navbar-brand text-light" href="#"><h5  style="font-size: 1em; margin-left: 0em;">START BOOTSTRAP</h5></a>
+            <button style="color: white; padding: 10px; background-color: #1abc9c; font-family: 'Lato', sans-serif; font-size: 12px; border-radius: 10%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                MENU<span class="navbar-toggler-icon"><i style="color: white; margin-top: 2px;" class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end align-items-center">
+
+                            
+                                <li style="display: inline-block; margin-left: 30px;"><a class="nav-link text-light" href="#port">PORTFOLIO</a></li>
+                                <li style="display: inline-block; margin-left: 30px;"><a class="nav-link text-light" href="#about">ABOUT</a></li>
+                                <li style="display: inline-block; margin-left: 30px;"><a class="nav-link text-light" href="#contact">CONTACT</a></li>
+                            
+                            
+                </ul>
+              </div>   
+        </nav>
+    </div>
+    <div style="background-color: #1abc9c; padding: 100px 0px;" class="container-fluid px-0 text-center" id="welcome">
+        <img class="mt-5" style= "width: 250px;" src="avatars.svg" alt="">
+        <h1 style="font-family: 'Montserrat', sans-serif; font-size: 2.75rem; color: white;" class="mt-5 heading">START BOOTSTRAP</h1>
+        <div class="left-line"></div>
+        <i style="display: inline-block; color: white; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+        <div class="right-line"></div>
+        <p style="font-size: 1.25rem;" class="text-light mt-4">Graphic Artist - Web Designer - Illustrator</p>
+    </div>
+    <div id="port" class="container-fluid px-0 py-5 text-center">
+        <h2 class="mt-5" style="color: #2c3e50; font-size: 2.25rem; font-family: 'Montserrat', sans-serif;">PORTFOLIO</h2>
+        <div class="left-line-dark"></div>
+        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+        <div class="right-line-dark"></div>
+        <div class="row p-0 mt-3 justify-content-center">
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal1">
+                <img style="max-width: 100%; border-radius: 5px;" src="cabin.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal2">
+                <img style="max-width: 100%; border-radius: 5px;" src="cake.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal3">
+                <img style="max-width: 100%; border-radius: 5px;" src="circus.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 p-0 justify-content-center">
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal4">
+                <img style="max-width: 100%; border-radius: 5px;" src="game.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal5">
+                <img style="max-width: 100%; border-radius: 5px;" src="safe.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-3 mb-2 grid" data-toggle="modal" data-target="#modal6">
+                <img style="max-width: 100%; border-radius: 5px;" src="submarine.png" alt="" class="image">
+                <div class="middle">
+                    <div class="ico"><i class="fa fa-plus ico" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal1" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">LOG CABIN</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="cabin.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal2" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">TASTY CAKE</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="cake.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal3" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">CIRCUS TENT</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="circus.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal4" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">CONTROLLER</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="game.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal5" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">LOCKED SAFE</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="safe.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal6" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title">SUBMARINE</h1><br>
+                        <div class="left-line-dark"></div>
+                        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+                        <div class="right-line-dark"></div>
+                        <img style="max-width: 100%;" src="submarine.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,<br> molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit<br> soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button style="background-color: #1abc9c;" class="btn" data-dismiss="modal">&times;Close window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" style="font-family: 'Montserrat', sans-serif; background-color: #1abc9c; padding: 100px 0px;" class= "container-fluid px-0  text-center">
+        <h2 style="font-size: 2.25rem;" class="text-light mt-5">ABOUT</h2>
+        <div class="left-line"></div>
+        <i style="display: inline-block; color: white; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+        <div class="right-line"></div><br>
+        <div class="row justify-content-center">
+            <div style="display: inline-block; text-align: left; font-family: 'Lato', sans-serif; margin-top: 50px;" class="text-left col-md-3 ">
+                <p style="font-weight: 300; font-size: 1.25rem; line-height: 1.5;" class="text-light text-left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div style="display: inline-block; text-align: left; font-family: 'Lato', sans-serif; margin-top: 50px;" class="text-left col-md-3 pt-0">
+                <p style="font-weight: 300; font-size: 1.25rem; line-height: 1.5;" class="text-light text-left ">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div><br>
+        </div>
+        
+        <button style="border: 2px solid white; font-family: 'Lato', sans-serif; font-size: 20px; padding:15px 20px;" class="btn btn-outline-light mt-3"><span><i style="margin-right: 10px; margin-top: auto;" class="fa fa-download" aria-hidden="true"></i></span>Free Download!</button>
+    </div>
+    <div style="padding: 100px 0px;" class="container-fluid px-0 text-center" id="contact">
+        <h2 style="color: #2c3e50; font-size: 50px; font-size: 2.25rem; font-family: 'Montserrat', sans-serif;">CONTACT ME</h2>
+        <div class="left-line-dark"></div>
+        <i style="display: inline-block; color: #2c3e50; font-size: 35px;" class="fa fa-star mb-2" aria-hidden="true"></i>
+        <div class="right-line-dark"></div>
+        <form action="" style="width: 50%; margin: auto;" class="mt-5">
+            <div class="form-group">
+                <input style="border-top: 0px; border-left: 0px; border-right: 0px; font-size: 25px;" type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email address" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="'number'" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <textarea class="md-textarea form-control" name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group" style="text-align: left;">
+                <button type="submit" class="btn text-light" style="background-color: #1abc9c; padding: 20px 30px; font-size: 20px; border-radius: 10px;">Send</button>
+            </div>
+        </form>
+    </div>
+    <div style="background-color: #2c3e50; font-family: 'Montserrat', sans-serif;" class="container-fluid py-5 px-0 text-center">
+        <div class="row justify-content-end align-items-start">
+            <div class="col-sm mb-5">
+                <h4 class="text-light mb-4">LOCATION</h4>
+                <p style="font-family: lato; font-size: 20px;" class="text-light">2215 John Daniel Drive <br> Clark, MO 65243</p>
+            </div>
+            <div class="col-sm mb-5">
+                <h4 class="text-light mb-4">AROUND THE WEB</h4>
+                <div class="btn-group-lg">
+                    <button class="btn btn-outline-light" style="border-radius: 50%;"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                    <button class="btn btn-outline-light" style="border-radius: 50%;"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                    <button class="btn btn-outline-light" style="border-radius: 50%;"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+                    <button class="btn btn-outline-light" style="border-radius: 50%;"><i class="fa fa-globe" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="col-sm mb-5">
+                <h4 class="text-light mb-4">ABOUT FREELANCER</h4>
+                <p style="font-family: lato; font-size: 20px;" class="text-light">Freelance is a free to use, MIT licensed <br>Bootstrap theme created by <a href="https://startbootstrap.com/" style="color: #1abc9c;">Start</a> <br><a href="https://startbootstrap.com/" style="color: #1abc9c;">Bootstrap.</a></p>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #1a252f;" class="container-fluid py-2 px-0 text-center">
+        <p class="text-light">Copyright © Your Website 2021</p>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</body>
+</html>
